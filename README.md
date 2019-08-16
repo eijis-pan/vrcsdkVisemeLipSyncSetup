@@ -2,14 +2,14 @@
 
 Unity の Editor 拡張
 
-## DescLiption
+## Description
 
 VRChat用カスタムアバターとしてアップロードするモデルに Lip Sync を設定する作業を自動化します。<br>
 
 TKCH_VisemeLipSyncSetup.cs を Assets フォルダの下に配置します。（Assets フォルダの下に Editor サブフォルダを作成しても構いません。）<br>
 ![Assets フォルダの下に配置](ls1.png "Assets フォルダの下に配置")
 
-ヒエラルキーにモデルを配置し、VRC_AvatarDescLiptorコンポーネントを追加したら、<br>
+ヒエラルキーにモデルを配置し、VRC_AvatarDescriptorコンポーネントを追加したら、<br>
 Inspectorウィンドウの歯車アイコンから VisemeLipSyncSetup を実行すると、<br>
 「Face」、「Body」、その他の順で Lip Sync 対応オブジェクトを検索し、自動で設定します。<br>
 
