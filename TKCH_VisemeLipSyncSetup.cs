@@ -1,15 +1,14 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using System;
 using UnityEngine;
 using UnityEditor;
 using VRCSDK2;
-using System.Threading;
 
 public class TKCH_AvatarSetup
 {
-	[MenuItem("CONTEXT/VRC_AvatarDescriptor/VisemeRipSyncSetup")]
-	private static void visemeRipSyncSetup(MenuCommand command)
+	[MenuItem("CONTEXT/VRC_AvatarDescriptor/VisemeLipSyncSetup")]
+	private static void visemeLipSyncSetup(MenuCommand command)
 	{
 		if (!EditorUtility.DisplayDialog (
 			"Custom Script Message", "Lip Sync を Viseme に自動設定します。続行しますか？", 
