@@ -48,6 +48,7 @@ public class TKCH_AvatarSetup
 			// 優先して設定するオブジェクトの名前
 			string[] firstSearchMeshNames = new string[] {
 				"face",
+				"skin",
 				"body"
 			};
 
