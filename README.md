@@ -6,8 +6,14 @@ Unity の Editor 拡張
 
 VRChat用カスタムアバターとしてアップロードするモデルに Lip Sync を設定する作業を自動化します。<br>
 
-TKCH_VisemeLipSyncSetup.cs を Assets フォルダの下に配置します。（Assets フォルダの下に Editor サブフォルダを作成しても構いません。）<br>
-![Assets フォルダの下に配置](ls1.png "Assets フォルダの下に配置")
+TKCH_VisemeLipSyncSetup.cs を Assets フォルダの下の Editor サブフォルダに配置します。（Editor サブフォルダがない場合は作成してください）<br>
+![Assets → Editor に配置](ls1a.png "Assets → Editor に配置")
+
+Assets フォルダ直下に配置すると、アバターアップロード時にエラーになります。
+![Assets フォルダ直下に配置](ls1.png "Assets フォルダ直下に配置")
+アバターアップロード時にエラーになった場合、Editor サブフォルダのスペルミスやAssets フォルダ直下に配置していないかを確認してください。
+![アバターアップロード時エラー](ls3.png "アバターアップロード時エラー")
+
 
 ヒエラルキーにモデルを配置し、VRC_AvatarDescriptorコンポーネントを追加したら、<br>
 Inspectorウィンドウの歯車アイコンから VisemeLipSyncSetup を実行すると、<br>
