@@ -10,7 +10,7 @@ TKCH_VisemeLipSyncSetup.cs を Assets フォルダの下の Editor サブフォ�
 ![Assets → Editor に配置](ls1a.png "Assets → Editor に配置")
 
 Assets フォルダ直下に配置すると、アバターアップロード時にエラーになります。（下は悪い例です）
-![Assets フォルダ直下に配置](ls1.png "Assets フォルダ直下に配置")
+![Assets フォルダ直下に配置](ls1.png "Assets フォルダ直下に配置")<br>
 アバターアップロード時にエラーになった場合、Editor サブフォルダのスペルミスやAssets フォルダ直下に配置していないかを確認してください。
 ![アバターアップロード時エラー](ls3.png "アバターアップロード時エラー")
 
