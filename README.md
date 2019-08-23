@@ -17,7 +17,7 @@ Assets フォルダ直下に配置すると、アバターアップロード時�
 
 ヒエラルキーにモデルを配置し、VRC_AvatarDescriptorコンポーネントを追加したら、<br>
 Inspectorウィンドウの歯車アイコンから VisemeLipSyncSetup を実行すると、<br>
-「Face」、「Body」、その他の順で Lip Sync 対応オブジェクトを検索し、自動で設定します。<br>
+「Face」、「Skin」、「Body」、その他の順で Lip Sync 対応オブジェクトを検索し、自動で設定します。<br>
 
 ![歯車アイコンから VisemeLipSyncSetup を実行](ls2.png "歯車アイコンから VisemeLipSyncSetup を実行")
 
