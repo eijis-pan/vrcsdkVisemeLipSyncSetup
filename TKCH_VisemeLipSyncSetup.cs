@@ -103,7 +103,7 @@ public class TKCH_AvatarSetup
 			{
 				string bName = sm.GetBlendShapeName (j);
 				// 先頭または末尾がViseme名に一致しているかどうか
-				if (bName.StartsWith (vName) || bName.EndsWith (vName)) 
+				if (bName.StartsWith (vName + "_") || bName.EndsWith ("_" + vName)) 
 				{
 					vrcAd.VisemeBlendShapes[ i ] = bName;
 					break;
@@ -130,7 +130,7 @@ public class TKCH_AvatarSetup
 			for (int i = 0; i < m.blendShapeCount; i++) {
 				string bName = m.GetBlendShapeName (i);
 				// 先頭または末尾がViseme名に一致しているかどうか
-				if (bName.StartsWith (vName) || bName.EndsWith (vName)) 
+				if (bName.StartsWith (vName + "_") || bName.EndsWith ("_" + vName)) 
 				{
 					vNameFound = true;
 					break;
